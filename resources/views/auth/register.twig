@@ -1,0 +1,128 @@
+{% extends 'layout/app.twig' %}
+{%  block content %}
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4 col-md-6 backgroundFlag">
+                    <img src="{{ asset('img/flag-background.png') }}" alt="Flag USA">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img src="{{ asset('img/logo.png') }}" alt="Logo USA Exchange" class="float-right logoMobile">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="{{ asset('img/login.png') }}" alt="Login icon" class="img-fluid">
+                    <h1 class="title">Create Account</h1>
+                    {% if flash.getMessage('error') != null %}
+                        <div class="alert alert-danger mb-3" role="alert">
+                            {{ flash.getMessage('error')|first }}
+                        </div>
+                    {% endif %}
+                    <form class="formModified register" method="post">
+                        {{ csrf.field|raw }}
+                        <div class="form-row">
+                            <div class="col-lg-12 col-12">
+                                <label class="labelForm ">Full name</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" name="name" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label class="labelForm">Phone</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" name="phone" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label class="labelForm">City</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" name="city" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="labelForm">Address</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label class="labelForm">State</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label class="labelForm">Country</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="labelForm">Username</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="text" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="labelForm">E-mail</label>
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="email" name="email" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="labelForm">Password</label>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="password" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="labelForm">Repeat password</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"></div>
+                                    </div>
+                                    <input type="password" class="form-control inputModified" placeholder="" required>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btnModified mt-5 mb-2">Register</button>
+                    </form>
+                    <span><a href="{{ path_for('auth.login') }}" class="labelModified">← Back</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

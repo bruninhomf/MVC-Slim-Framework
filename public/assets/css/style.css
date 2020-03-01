@@ -1,0 +1,131 @@
+/* Login */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.col-lg-4.col-md-6.backgroundFlag {
+  padding-left: 0;
+}
+.formModified {
+  max-width: 35%;
+  margin: 0 auto;
+}
+.formModified.register {
+  max-width: 50%;
+}
+.inputModified {
+  background-color: #fff;
+  border: 4px solid #26296a;
+  border-radius: 30px;
+  padding: 25px 10px;
+  border-left: 0;
+}
+.inputModified::placeholder {
+  color: #26296a;
+}
+.btnModified {
+  background-color: #c32227;
+  color: #fff;
+  border-radius: 30px;
+  width: 70%;
+  padding: 12px 0;
+  font-weight: bold;
+  border-color: #c32227;
+}
+.btnModified:hover {
+  background-color: #26296a;
+  border-color: #26296a;
+}
+.form-control:focus {
+  border-color: #2b2d3b;
+  box-shadow: 0 0 0 .2rem rgba(43, 45, 59, .25);
+}
+.formModified .input-group .input-group-prepend {
+  border: 4px solid #26296a;
+  border-right: 0;
+  border-radius: 30px 0 0 30px;
+}
+.input-group-text {
+  background-color: #fff;
+  border-radius: 30px;
+  border: 0;
+}
+.input-group:first-child {
+  margin: 10px 0;
+}
+.labelModified {
+  color: #26296a;
+}
+.labelModified:hover {
+  color: #26296a;
+}
+.btnModifiedRegister {
+  width: 20%;
+  background-color: #c32227;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 0;
+  border-color: #c32227;
+}
+.btnModifiedRegister:hover {
+  background-color: #26296a;
+  border-color: #26296a;
+}
+.backgroundFooter {
+  background: url(../img/footer.png);
+  height: 100px;
+  margin-top: 110px;
+}
+.title {
+  color: #c32227;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+.alert {
+  max-width: 35%;
+  margin: 0 auto;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus {
+  background-color: #26296a;
+  border-color: #26296a;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(38, 41, 106, .5);
+}
+.labelForm {
+  float: left;
+  margin-left: 25px;
+  color: #26296a;
+}
+/* Login mobile */
+@media screen and (max-width:767px) {
+  .col-lg-4.col-md-6.backgroundFlag {
+    display: none;
+  }
+  .logoMobile {
+    float: none!important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .alert, .formModified, .formModified.register, .btnModified {
+    max-width: 100%;
+    width: 100%;
+  }
+  .btnModifiedRegister {
+    width: 50%;
+  }
+}
+/* Login tablet */
+@media screen and (min-width:768px) and (max-width:960px) {
+  .alert, .formModified, .formModified.register, .btnModified {
+    max-width: 60%;
+    width: 60%;
+  }
+  .btnModifiedRegister {
+    width: 25%;
+  }
+}

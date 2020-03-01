@@ -1,0 +1,43 @@
+{% extends 'layout/app.twig' %}
+{%  block content %}
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4 col-md-6 backgroundFlag">
+                    <img src="{{ asset('img/flag-background.png') }}" alt="Flag USA">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img src="{{ asset('img/logo.png') }}" alt="Logo USA Exchange" class="float-right logoMobile">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="{{ asset('img/login.png') }}" alt="Login icon" class="img-fluid">
+                    <h1 class="title">Recover password</h1>
+                    {% if flash.getMessage('error') %}
+                        <div class="alert alert-danger mb-3" role="alert">
+                            {{ flash.getMessage('error')|first }}
+                        </div>
+                    {% endif %}
+                    <form class="formModified" method="post">
+                        {{ csrf.field|raw }}
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><img src="{{ asset('img/username.png') }}" alt="Username"></div>
+                            </div>
+                            <input type="email" name="email" class="form-control inputModified" placeholder="Username or e-mail" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btnModified mt-5 mb-2">Recover</button>
+                    </form>
+                    <span><a href="{{ path_for('auth.login') }}" class="labelModified">← Back</a></span>
+                    <p class="mt-5 mb-1">Not a member?</p>
+                    <a href="{{ path_for('auth.register') }}" class="btn btn-primary btnModifiedRegister">Create account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
