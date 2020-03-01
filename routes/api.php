@@ -3,7 +3,7 @@
 /*
  * File        : API.php
  * Description : Rotas da API Rest
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 use App\Middlewares\Auth\TokenMiddleware;

@@ -3,7 +3,7 @@
 /*
  * File        : App.php
  * Description : Arquivo de configuração base da aplicação
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 /*

@@ -3,7 +3,7 @@
 /*
  * File        : Validator.php
  * Description : Wrapper de validação de formulários
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Extensions\Validation;

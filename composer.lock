@@ -70,6 +70,11 @@
                     "name": "Alef Carvalho",
                     "email": "contato@alefcarvalho.com.br",
                     "homepage": "http://alefcarvalho.com.br"
+                },
+                {
+                    "name": "Bruno Firmiano",
+                    "email": "bruno@herteck.com.br",
+                    "homepage": "http://herteck.com.br"
                 }
             ],
             "description": "A customized fork of Slim PHP Framework",

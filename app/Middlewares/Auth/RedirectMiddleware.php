@@ -3,7 +3,7 @@
 /*
  * File        : RedirectIfLoggedMiddleware.php
  * Description : Middleware de redirecionamento para no caso do usuário já autenticado
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Middlewares\Auth;

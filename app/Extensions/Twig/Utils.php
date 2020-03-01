@@ -3,7 +3,7 @@
 /*
  * File        : Utils.php
  * Description : Extensão de integração de funções PHP nativas com o Twig
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Extensions\Twig;

@@ -3,7 +3,7 @@
 /*
  * File        : Database.php
  * Description : Arquivo de configuração de banco de dados
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 /*

@@ -3,7 +3,7 @@
 /*
  * File        : Auth.php
  * Description : Wrapper de acesso a sessão
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Util;

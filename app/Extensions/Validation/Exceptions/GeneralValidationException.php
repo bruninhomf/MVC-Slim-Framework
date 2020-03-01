@@ -4,7 +4,7 @@
  * File        : cpfAvailableException.php
  * Description : Exception para cpf cadastrado
  * Date        : 04/10/2017 09:00
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Extensions\Validation\Exceptions;

@@ -3,7 +3,7 @@
 /*
  * File        : ViewMiddleware.php
  * Description : Middleware de configuração de view
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Middlewares\Auth;

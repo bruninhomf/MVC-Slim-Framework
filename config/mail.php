@@ -3,7 +3,7 @@
 /*
  * File        : Mail.php
  * Description : Arquivo de configuração do serviço de email
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 /*

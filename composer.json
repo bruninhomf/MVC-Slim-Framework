@@ -1,17 +1,17 @@
 {
 
-  "name": "inovedados/executive-center",
-  "description": "Condomínio Executive Center",
+  "name": "login-usaexchang",
+  "description": "Usa Exchang",
   "type": "project",
   "authors": [
     {
-      "name": "Alef Carvalho",
-      "email": "alef.carvalho@inovedados.com.br"
+      "name": "Bruno Firmiano",
+      "email": "bruno.firmiano@inovedados.com.br"
     }
   ],
   "require": {
     "php": ">=7.1.0",
-    "alefcarvalho/slim": "dev-master",
+    "brunofirmiano/slim": "dev-master",
     "slim/csrf": "^0.8.1",
     "slim/flash": "^0.2.0",
     "slim/twig-view": "^2.3",

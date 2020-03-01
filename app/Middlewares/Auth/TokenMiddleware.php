@@ -3,7 +3,7 @@
 /*
  * File        : APITokenMiddleware.php
  * Description : Middleware de autenticação das rotas da API
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Middlewares\Auth;

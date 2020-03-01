@@ -3,7 +3,7 @@
 /*
  * File        : Crypto.php
  * Description : Arquivo de configuração de criptografia da aplicação
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 /*

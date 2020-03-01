@@ -3,7 +3,7 @@
 /*
  * File        : RecoveryValidation.php
  * Description : Middleware de atualização de dados cadastrais
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Middlewares\Validation;

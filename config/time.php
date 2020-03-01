@@ -3,7 +3,7 @@
 /*
  * File        : Time.php
  * Description : Arquivo com constântes de data e hora
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 /*

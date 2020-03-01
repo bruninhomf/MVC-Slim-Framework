@@ -3,7 +3,7 @@
 /*
  * File        : PasswordMiddleware.php
  * Description : User password protected route verification middleware
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Middlewares\Auth;

@@ -3,7 +3,7 @@
 /*
  * File        : Recurrency.php
  * Description : Extensão do manipulador de recorrência
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Extensions\Support;

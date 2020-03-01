@@ -3,7 +3,7 @@
 /*
  * File        : Index.php
  * Description : Task Handler
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 ob_start(); session_start();

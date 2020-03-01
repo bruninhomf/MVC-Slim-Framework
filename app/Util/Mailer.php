@@ -3,7 +3,7 @@
 /*
  * File        : Mailer.php
  * Description : Wrapper de envio de email
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Util;

@@ -3,7 +3,7 @@
 /*
  * File        : User.php
  * Description : Model base da aplicação
- * Author      : Alef Carvalho <alef.carvalho@inovedados.com.br>
+ * Author      : Bruno Firmiano <bruno.firmiano@inovedados.com.br>
 */
 
 namespace App\Models;
