@@ -13,11 +13,6 @@ session_start();
 require 'vendor/autoload.php';
 
 use App\Framework\Kernel;
-use App\Extensions\Support\Env;
-
-if(Env::msie()){
-    die('Internet Explorer detected. Please use Google Chrome or Mozilla Firefox.');
-}
 
 //inicializa a aplicação
 $app = new Kernel([
