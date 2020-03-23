@@ -18,8 +18,8 @@ define('APP_MAIL', [
 
     'driver'      => 'smtp',
     'host'        => 'smtp.mailtrap.io',
-    'user'        => '',
-    'pass'        => '',
+    'user'        => '604f886691e670',
+    'pass'        => 'af9578475b6603',
     'port'        =>  2525,
     'charset'     => 'utf-8',
     'encryption'  => 'tls',

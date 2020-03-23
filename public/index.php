@@ -10,7 +10,7 @@ ob_start();
 session_start();
 
 //carrega o autoload do composer
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use App\Framework\Kernel;
 

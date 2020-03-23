@@ -8,6 +8,9 @@
 
 namespace App\Controllers;
 
+use App\Extensions\Support\Date;
+use App\Extensions\Support\Str;
+use App\Util\Mailer;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
@@ -73,8 +76,12 @@ class AuthController extends Controller {
     |--------------------------------------------------------------------------
     */
     public function register(Request $request, Response $response){
-
         if($request->isPost()){
+
+            Mailer::to("bruno.firmiano@inovedados.com.br")
+            ->subject('Teste')
+            ->template('mail.register.profile',$request->all())
+            ->send();
 
             //usuário não existe
             $this->flash('error', 'The data reported does not constitute an indication of users.');

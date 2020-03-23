@@ -33,7 +33,7 @@ define('APP_URL', 'http://localhost/inovedados/public');
 |
 */
 define('APP_DIR', (PHP_OS == 'Linux')
-    ? '/var/www/inovedados' : 'C:\\xampp\\htdocs\\inovedados\\'
+    ? '/var/www/vhosts/herteck.com.br/login.herteck.com.br/' : 'C:\\xampp\\htdocs\\inovedados\\'
 );
 
 /*
